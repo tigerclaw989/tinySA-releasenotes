@@ -1,4 +1,15 @@
 New FW release
+Version V1.0-99
+
+Changes: 
+- Waterfall now also works for 101 and 51 sweep points
+- Bottom level indicator removed in waterfall mode
+- Menu remainder cleared in waterfall mode
+- New MARKER/MARKER SEARCH/ENTER FREQUENCY to set active marker to specific frequency
+
+As I am still traveling only limited testing done.
+
+New FW release
 Version V1.0-96
 
 Changes:
