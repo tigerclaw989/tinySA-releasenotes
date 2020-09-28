@@ -1,4 +1,16 @@
 New FW release
+Version v1.1
+
+Changes:
+- Add option to set the AM or FM modulation frequency. 
+- Option to directly set the frequency of a marker instead of searching or moving
+- Clean menu when switching to waterfall
+- Waterfall now working for all sweep points settings
+
+
+The modulation frequency can be set over a broad range but is only fairly accurate (+/- 1%)  between 100Hz and 7kHz
+
+New FW release
 Version V1.0-99
 
 Changes: 
