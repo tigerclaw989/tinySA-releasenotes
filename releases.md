@@ -1,4 +1,19 @@
 New FW release
+Version v1.1-2
+
+Changes:
+- The console command "Marker {number} {value}" now accepts either a index (if below sweep points) or frequency as value
+
+Examples:
+>marker 1 100
+sets marker 1 to index 100 (if sweep points > 100)
+>marker 1 100M
+sets marker 1 to 100M (if within sweep range)
+
+If frequency is outside sweep range nothing happens.
+Setting the marker to an index or frequency disables tracking
+
+New FW release
 Version v1.1
 
 Changes:
