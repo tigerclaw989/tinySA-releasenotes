@@ -1,4 +1,14 @@
 New FW release
+Version: v1.1-4
+
+Changes:
+- The AM modulation depth increased to 30%
+- NFM deviation increased to 5kHz
+- Modulation frequency limits set to 100Hz..6kHz
+
+I will be making a video showing the use of the modulation on the low output and the analysis of the modulation using a tinySA
+
+New FW release
 Version v1.1-2
 
 Changes:
