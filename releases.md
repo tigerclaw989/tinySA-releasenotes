@@ -1,4 +1,14 @@
 New FW release
+Version v1.1-5
+
+Changes:
+- Solved a crash in the frequency menu
+- Corrected various errors in FM modulation. (shifting, wrong deviation)
+
+FM modulation should now work correctly for both low and high mode over the entire frequency range.
+Be aware: In low mode around 46MHz and in high mode around 480MHz the fm modulation way deviate a bit due to complex PLL switching.
+
+New FW release
 Version: v1.1-4
 
 Changes:
