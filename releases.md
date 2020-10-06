@@ -1,3 +1,9 @@
+New FW released
+Version v1.1-7
+Changes:
+- Serial port integrated
+- Offset console command added to support External Amp setting from tinySA-App
+
 New FW release
 Version v1.1-5
 
