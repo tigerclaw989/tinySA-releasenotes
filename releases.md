@@ -1,3 +1,16 @@
+New FW release
+Version v1.1-9
+
+Changes:
+- Disabled serial console due to insufficient space
+- Added THD measurement so MEASUREMENT/MORE menu
+
+The THD measurement gives the % TDH of the signal that is under the first marker by summing the power of all harmonics of the signal under the first marker in the current scan
+The maximum number of harmonics you can take into account is about 30 so with a full span in low mode you can measure the THD of the cal output at 15MHz and 30MHZ but not 10MHz or lower.
+For lower frequencies reduce the span till the THD measurement appears.
+
+Can someone check if the measured number is about correct?
+
 New FW released
 Version v1.1-7
 Changes:
