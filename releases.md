@@ -28,7 +28,7 @@ FM modulation should now work correctly for both low and high mode over the enti
 Be aware: In low mode around 46MHz and in high mode around 480MHz the fm modulation way deviate a bit due to complex PLL switching.
 
 New FW release
-Version: v1.1-4
+Version: v1.1-4 
 
 Changes:
 - The AM modulation depth increased to 30%
