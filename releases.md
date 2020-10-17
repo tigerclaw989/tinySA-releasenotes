@@ -1,4 +1,10 @@
 New FW release
+Version v1.1-11
+
+Changes: 
+- Selftest extended with attenuator test testing all attenuator internal switches. 
+
+New FW release
 Version v1.1-9
 
 Changes:
