@@ -1,3 +1,8 @@
+New FW release Version v1.1-12
+Changes:
+	- 	Fix power calibration
+Please do not use version v1.1-11 as Power calibration does not work
+
 New FW release
 Version v1.1-11
 
