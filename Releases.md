@@ -1,3 +1,8 @@
+New FW release
+Version v1.1-13
+Changes:
+- Added a check and error message when no connection between present between high and low connector
+
 New FW release Version v1.1-12
 Changes:
 - Fix power calibration
