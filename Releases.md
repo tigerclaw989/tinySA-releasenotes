@@ -1,4 +1,13 @@
 New FW release
+Version v1.1-15
+Changes:
+- The AM measurement mode now calculates the modulation depth based on the two sideband markers.
+- The -3dB width measurement is made more robust and accurate
+
+A small warning w.r.t the AM depth measurement. Below 40% depth the measurement reports too high values and below 30% depth the measurement may fail completely.
+But as I assume people measuring the modulation depth of an AM signal are supposed to understand how the calculation works, I hope this is not a serious issue.
+
+New FW release
 Version v1.1-13
 Changes:
 - Added a check and error message when no connection between present between high and low connector
