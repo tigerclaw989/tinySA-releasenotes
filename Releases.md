@@ -1,4 +1,21 @@
 New FW release
+Version v1.1-21
+Changes:
+- Automatically detect AM signal and adapt settings
+
+WARNING: This is an experimental feature and I need your opinion
+
+When the span is below 300kHz and the signal above -40dBm AM auto detection is active. Once it detects an AM signal it will activate special AM mode.
+A red "AM" warning will appear in the status panel and the AGC/LNA setting will be optimized for AM signals
+This mode is canceled when the max signal is below -40dBm and the warning text disappears, otherwise it will stay on even when the signal is no longer AM modulated!
+Everytime a new setting is applied by the user the AM mode is canceled and auto detection will restart.
+
+As a consequence the first sweep after any change of settings will NOT be optimized for AM and can show the well known AM modulation artifacts. Once detected, the next sweep should be OK.
+Incorrect AM detection may be possible and I need to know under what conditions this is happening.
+
+As stated, highly experimental and I probably missed some side effect somewhere. Your testing and feedback is most welcome.
+
+New FW release
 Version v1.1-15
 Changes:
 - The AM measurement mode now calculates the modulation depth based on the two sideband markers.
