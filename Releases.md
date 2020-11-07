@@ -1,4 +1,12 @@
 New FW release
+Version v1.1-22
+Change:
+- After MARKERS/MARKER OPS/->CENTER the tinySA goes into auto-center-mode as long as you do NOT use any menu and the lever is automatically set to zoom-span-mode
+
+When using the lever to zoom in/out the selected marker will stay in the middle of the screen whenever possible in the min/max frequency range.
+Is this usable?
+
+New FW release
 Version v1.1-21
 Changes:
 - Automatically detect AM signal and adapt settings
