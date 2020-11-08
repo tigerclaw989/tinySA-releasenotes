@@ -1,4 +1,13 @@
 New FW release
+Version 1.1-24
+Changes: 
+- AM detection will be disabled when setting AGC to manual (on or off)
+
+Keep in mind the AM correction only happens in the NEXT sweep after the "AM" warning appears.
+Every 50 sweeps the AM detection is restarted
+Consider setting sweep speed to FAST when measuring with RBW = 3kHz (and even FAST SPEEDUP to 10)
+
+New FW release
 Version v1.1-23
 Changes:
 - MEASUREMENT/FM now measures the actual frequency deviation for modulation frequencies between 1kHz and 2.5kHz and deviations from 3kHz to 500kHz 
