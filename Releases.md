@@ -1,4 +1,15 @@
 New FW release
+Version v1.1-23
+Changes:
+- MEASUREMENT/FM now measures the actual frequency deviation for modulation frequencies between 1kHz and 2.5kHz and deviations from 3kHz to 500kHz 
+- Improved touch calibration markers
+- actual 10MHz frequency correction value now stored in config and saved over reboot(this implies your current config will be erased when you upgrade to this FW). Be careful. Entering a WRONG frequency will render a tinySA useless and will require a restore factory settings.
+- Marker center zoom now also works for a dragged or searched marker (e.g. when the marker is not in tracking mode) as long as the marker is positioned on a (local) maximum
+- Exiting measurement no longer resets all settings
+
+Feedback welcome!!!!
+
+New FW release
 Version v1.1-22
 Change:
 - After MARKERS/MARKER OPS/->CENTER the tinySA goes into auto-center-mode as long as you do NOT use any menu and the lever is automatically set to zoom-span-mode
