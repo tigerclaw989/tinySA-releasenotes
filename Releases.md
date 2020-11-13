@@ -1,4 +1,10 @@
 New FW release
+Version 1.1-26
+Changes:
+- Bug solved: tinySA crashes when waterfall enabled and scanraw requested
+- Added  MARKER/MARKER OPS/ -> REF LEVEL sets the ref level to manual just above the level of the selected marker
+
+New FW release
 Version 1.1-24
 Changes: 
 - AM detection will be disabled when setting AGC to manual (on or off)
