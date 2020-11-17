@@ -1,4 +1,9 @@
 New FW release
+Version v1.1-31
+Changes:
+- Bug solved: modulation console command does not work.
+
+New FW release
 Version 1.1-26
 Changes:
 - Bug solved: tinySA crashes when waterfall enabled and scanraw requested
